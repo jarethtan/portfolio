@@ -1,0 +1,150 @@
+.contactButton {
+  position: absolute;
+  top: 44%;
+  margin-left: 9rem;
+  padding: 1rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: rgba(255, 166, 0, 0.8);
+  color: rgb(255, 255, 255);
+  border: 4px solid rgba(255, 255, 255, 0.85);
+  animation: buttonMove 7.5s forwards;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+.contactButton:hover {
+  cursor: pointer;
+  border: 4px solid rgba(255, 166, 0, 1);
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 166, 0, 1);
+}
+
+/*button:before (attr data-hover)*/
+.contactButton:hover:before {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.contactButton:before {
+  content: attr(data-hover);
+  position: absolute;
+  top: 0.7rem;
+  left: 0;
+  width: 100%;
+  padding-left: 0.5rem;
+  letter-spacing: 0.4rem;
+  font-weight: 900;
+  font-size: 2.5rem;
+  opacity: 0;
+  transform: translate(-100%, 0);
+  transition: all 0.4s ease-in-out;
+}
+
+.contactButton:hover div {
+  opacity: 0;
+  transform: translate(120%, 0);
+}
+
+.contactButton div {
+  letter-spacing: 0.4rem;
+  padding-left: 0.5rem;
+  font-weight: 800;
+  font-size: 2.5rem;
+  transition: all 0.3s ease-in-out;
+  animation: buttonMove 7.5s forwards;
+}
+
+@keyframes buttonMove {
+  0% {
+    font-size: 0rem;
+    opacity: 0;
+  }
+  90% {
+    font-size: 0rem;
+    opacity: 0;
+  }
+  100% {
+    font-size: 2.2rem;
+    opacity: 1;
+  }
+}
+
+@media (min-width: 100px) {
+  .contactButton {
+    top: 44%;
+    margin: auto;
+    padding: 0.5rem;
+    border: 4px solid rgba(255, 255, 255, 0.85);
+    animation: none;
+  }
+  .contactButton div {
+    letter-spacing: 0.2rem;
+    font-size: 1.3rem;
+    animation: none;
+  }
+  .contactButton:before {
+    top: 0.5rem;
+    letter-spacing: 0.2rem;
+    font-weight: 900;
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 450px) {
+  .contactButton div,
+  .contactButton:before {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .contactButton {
+    margin-left: 11%;
+  }
+  .contactButton div,
+  .contactButton:before {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .contactButton {
+    margin-left: 7%;
+    top: 44%;
+    animation: buttonMove 7.5s forwards;
+  }
+  .contactButton div,
+  .contactButton:before {
+    animation: buttonMove 7.5s forwards;
+  }
+}
+
+@media (min-width: 1100px) {
+  .contactButton {
+    margin-left: 10%;
+    top: 46%;
+  }
+  @keyframes buttonMove {
+    0% {
+      font-size: 0rem;
+      opacity: 0;
+    }
+    90% {
+      font-size: 0rem;
+      opacity: 0;
+    }
+    100% {
+      font-size: 2.6rem;
+      opacity: 1;
+    }
+  }
+}
+
+@media (min-width: 1300px) {
+  .contactButton {
+    margin-left: 10%;
+    top: 52%;
+  }
+}

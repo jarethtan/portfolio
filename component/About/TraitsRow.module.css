@@ -1,0 +1,30 @@
+.traitsRow {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 600px) {
+  .traitsRow {
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 1000px) {
+  .traitsRow {
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1300px) {
+  .traitsRow {
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 1500px) {
+  .traitsRow {
+    justify-content: space-between;
+  }
+}

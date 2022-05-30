@@ -1,0 +1,128 @@
+.avatar {
+  position: relative;
+  margin: 65% auto 0 auto;
+  border: 3px solid white;
+  border-radius: 1.2rem;
+  width: 7rem;
+  height: 7.5rem;
+}
+
+.image {
+  border-radius: 1rem;
+}
+
+.name {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 0.7rem auto 0 auto;
+  color: rgb(255, 162, 0);
+  font-family: "Poppins", sans-serif;
+  -webkit-text-stroke: 0.02vw rgb(0, 0, 0);
+}
+
+.nameCollapse {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 0.7rem auto 0 auto;
+  color: rgb(255, 162, 0);
+  font-family: "Poppins", sans-serif;
+  display: none;
+}
+
+.message {
+  font-size: 0.8rem;
+  margin: 0.5rem auto 30% auto;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+@media (min-width: 100px) {
+  .name {
+    display: none;
+  }
+  .message {
+    display: none;
+  }
+  .avatar {
+    margin: auto 10% auto 0;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .image {
+    border-radius: 50%;
+  }
+}
+
+@media (min-width: 450px) {
+  .nameCollapse {
+    font-size: 1.1rem;
+  }
+  .avatar {
+    width: 2.7rem;
+    height: 2.7rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .nameCollapse {
+    display: flex;
+    font-size: 1.2rem;
+    margin: 1rem auto;
+  }
+  .avatar {
+    margin: 3rem auto 0rem auto;
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .nameCollapse {
+    font-size: 1.3rem;
+  }
+  .avatar {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .name {
+    display: flex;
+    font-size: 1.1rem;
+  }
+  .nameCollapse {
+    display: none;
+    font-size: 0.7rem;
+  }
+  .message {
+    display: flex;
+    font-size: 0.7rem;
+    margin: 0.5rem auto 30% auto;
+  }
+  .avatar {
+    margin: 65% auto 0 auto;
+    border: 3px solid white;
+    border-radius: 1.2rem;
+    width: 6rem;
+    height: 6.5rem;
+  }
+  .image {
+    border-radius: 1rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .name {
+    font-size: 1.3rem;
+  }
+  .message {
+    font-size: 0.8rem;
+  }
+  .avatar {
+    width: 7rem;
+    height: 7.5rem;
+  }
+}

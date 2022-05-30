@@ -1,0 +1,123 @@
+.name {
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  top: 12%;
+  margin: 0 0 0 14%;
+  font-size: 5.5rem;
+  font-weight: bold;
+  animation: text 2s forwards;
+  transition: all 0.2s ease-in-out;
+}
+
+.name::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  letter-spacing: 0.4rem;
+  color: rgb(243, 158, 0);
+  white-space: nowrap;
+  -webkit-text-stroke: 0.1vw rgb(136, 88, 0);
+  border-right: 2px solid rgb(184, 119, 0);
+  text-shadow: none;
+  overflow: hidden;
+  animation: highlight 4s forwards;
+}
+
+@keyframes text {
+  0% {
+    color: rgba(0, 0, 0, 0);
+    letter-spacing: 3rem;
+    -webkit-text-stroke: 0.1vw rgba(255, 255, 255, 0);
+  }
+  20% {
+    /* letter-spacing: 3.5rem; */
+    -webkit-text-stroke: 0.1vw white;
+  }
+  100% {
+    letter-spacing: 0.4rem;
+    color: rgb(220, 220, 220);
+    -webkit-text-stroke: 0.1vw rgb(113, 74, 0);
+  }
+}
+
+@keyframes highlight {
+  0%,
+  40% {
+    border-right: 2px solid rgba(255, 166, 0, 0);
+  }
+  50% {
+    width: 0;
+    border-right: 2px solid rgb(243, 158, 0);
+  }
+  75% {
+    width: 63%;
+    border-right: 2px solid rgb(243, 158, 0);
+    text-shadow: 0 0 8px hsl(29, 100%, 79%), 0 0 15px hsl(29, 100%, 79%);
+  }
+  100% {
+    width: 63%;
+    text-shadow: none;
+    border-right: 2px solid rgba(255, 255, 255, 0);
+  }
+}
+
+@media (min-width: 100px) {
+  .name {
+    margin: auto;
+    top: 14%;
+    font-size: 2.5rem;
+    animation: none;
+    color: white;
+    -webkit-text-stroke: 0.4vw rgb(136, 88, 0);
+  }
+  .name::before {
+    display: none;
+  }
+}
+
+@media (min-width: 450px) {
+  .name {
+    top: 12%;
+    font-size: 2.8rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .name {
+    top: 10%;
+    font-size: 3.2rem;
+    margin: 0 0 0 12%;
+    -webkit-text-stroke: 0.3vw rgb(136, 88, 0);
+  }
+}
+
+@media (min-width: 900px) {
+  .name {
+    font-size: 3.6rem;
+    margin: 0 0 0 8%;
+    -webkit-text-stroke: 0.3vw rgb(136, 88, 0);
+    animation: text 2s forwards;
+  }
+  .name::before {
+    display: flex;
+  }
+}
+
+@media (min-width: 1100px) {
+  .name {
+    top: 6%;
+    font-size: 4.5rem;
+    margin: 0 0 0 11%;
+  }
+}
+
+@media (min-width: 1300px) {
+  .name {
+    top: 12%;
+    margin: 0 0 0 9%;
+    font-size: 5.5rem;
+  }
+}

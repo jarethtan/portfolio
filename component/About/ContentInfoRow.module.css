@@ -1,0 +1,231 @@
+.contentInfoRow {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.imageContent {
+  position: relative;
+  width: 18rem;
+  height: 23.5rem;
+  margin: auto;
+  margin-top: 2rem;
+  border: 2px solid rgba(128, 128, 128, 0.6);
+  border-radius: 0.5rem;
+}
+
+.images {
+  border-radius: 0.3rem;
+}
+
+.developerContent {
+  margin-top: 2rem;
+  width: 68%;
+}
+
+.intro {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: rgb(56, 145, 154);
+}
+
+.content {
+  margin-top: 1.5rem;
+  line-height: 1.6rem;
+  font-size: 1rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid rgba(56, 145, 154, 0.6);
+  text-align: justify;
+}
+
+.infoSection {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.locationEmail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.location,
+.email {
+  margin-bottom: 1rem;
+}
+
+.nationality {
+  margin-bottom: 2rem;
+}
+
+.resumeButton {
+  border: 2px solid rgb(56, 145, 154);
+  font-weight: 600;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: rgb(56, 145, 154);
+  background: linear-gradient(to left, rgb(255, 252, 230) 50%, rgb(56, 145, 154) 50%) right;
+  background-size: 200%;
+  transition: all 0.2s ease-out;
+  transition-delay: 0.2s;
+}
+
+.resumeButton:hover {
+  background-position: left;
+  color: white;
+}
+
+@media (min-width: 100px) {
+  .imageContent {
+    width: 16rem;
+    height: 18rem;
+    margin-top: 1rem;
+    margin: auto;
+  }
+  .developerContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    width: 100%;
+  }
+  .intro {
+    font-size: 1.4rem;
+  }
+  .content {
+    margin-top: 1rem;
+    line-height: 1.4rem;
+    font-size: 0.85rem;
+  }
+  .infoSection {
+    font-size: 0.8rem;
+  }
+  .location,
+  .email {
+    margin-bottom: 0.7rem;
+  }
+  .resumeButton {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 350px) {
+  .imageContent {
+    width: 14rem;
+    height: 18rem;
+  }
+}
+
+@media (min-width: 450px) {
+  .imageContent {
+    width: 17rem;
+    height: 22rem;
+  }
+  .resumeButton {
+    font-size: 1rem;
+    text-align: center;
+    width: 14rem;
+    margin: auto;
+  }
+}
+
+@media (min-width: 600px) {
+  .imageContent {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  .imageContent {
+    display: flex;
+    margin-top: 1.3rem;
+    width: 20rem;
+    height: 28rem;
+  }
+  .developerContent {
+    display: block;
+    margin-top: 1rem;
+    width: 50%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .imageContent {
+    width: 37%;
+    height: 26rem;
+  }
+  .developerContent {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1100px) {
+  .imageContent {
+    width: 21rem;
+    height: 28rem;
+  }
+  .intro {
+    font-size: 1.8rem;
+  }
+  .developerContent {
+    width: 58%;
+  }
+  .content {
+    font-size: 0.9rem;
+  }
+  .infoSection {
+    font-size: 0.9rem;
+  }
+  .location,
+  .email {
+    margin-bottom: 0.9rem;
+  }
+  .resumeButton {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .contentInfoRow {
+    margin-bottom: 2rem;
+  }
+  .imageContent {
+    width: 28%;
+    height: 23.5rem;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  .developerContent {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    width: 66%;
+  }
+  .content {
+    margin-top: 1.5rem;
+    line-height: 1.6rem;
+    font-size: 1rem;
+  }
+  .location,
+  .email {
+    margin-bottom: 1rem;
+  }
+  .resumeButton {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 1460px) {
+  .developerContent {
+    margin-left: 4rem;
+    width: 68%;
+  }
+  .imageContent {
+    width: 26%;
+  }
+}

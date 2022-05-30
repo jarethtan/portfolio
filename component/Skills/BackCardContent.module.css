@@ -1,0 +1,55 @@
+.cardBackContent {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0.8rem;
+  background-color: rgb(57, 150, 160);
+  box-shadow: 4px 4px 5px gray;
+  color: white;
+  border: 3px solid white;
+}
+
+.cardBackContent span {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.7rem;
+  color: orange;
+  text-transform: uppercase;
+}
+
+.cardBackContent div {
+  margin: 0rem 0.5rem 0.3rem 0.5rem;
+}
+
+.projButton {
+  margin-right: 1rem;
+  font-size: 0.9rem;
+  width: 9rem;
+  background-color: rgba(245, 222, 179, 0);
+  padding: 0.15rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  background: linear-gradient(to left, rgb(56, 145, 154) 50%, white 50%) right;
+  background-size: 200%;
+  transition: all 0.3s ease-in-out;
+  transition-delay: 0.2s;
+}
+
+.projButton:hover {
+  background-position: left;
+  color: rgb(57, 150, 160);
+}
+
+.gitIcon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-bottom: -0.4rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.gitIcon:hover {
+  transform: scale(1.2);
+}

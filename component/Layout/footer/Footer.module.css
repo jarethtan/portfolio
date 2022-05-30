@@ -1,0 +1,119 @@
+.footerContainer {
+  background-color: rgb(56, 145, 154);
+  display: flex;
+  height: 4rem;
+  z-index: 2;
+  font-family: "Montserrat", sans-serif;
+  border-top: 1px solid gray;
+  padding: 0 3rem 0 14%;
+}
+
+.text1 {
+  color: rgb(255, 255, 255);
+  margin: auto 0 auto 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.text2 {
+  font-weight: 700;
+  color: rgb(255, 162, 0);
+}
+
+.text3,
+.text4 {
+  display: none;
+}
+
+.title {
+  margin: auto;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-right: 5rem;
+}
+
+.name {
+  color: rgb(255, 162, 0);
+}
+
+@media (min-width: 100px) {
+  .footerContainer {
+    height: 3rem;
+    padding: 0 4%;
+  }
+  .text1,
+  .text2 {
+    display: none;
+  }
+  .text3 {
+    display: flex;
+    color: rgb(255, 255, 255);
+    margin: auto 0;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  .text4 {
+    display: flex;
+    font-weight: 700;
+    color: rgb(255, 162, 0);
+  }
+  .title {
+    display: none;
+  }
+}
+
+@media (min-width: 450px) {
+  .footerContainer {
+    padding: 0 2%;
+  }
+  .text3 {
+    font-size: 0.85rem;
+    margin: auto 0 auto 0.5rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .footerContainer {
+    padding: 0 1rem 0 9%;
+  }
+  .text3 {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .footerContainer {
+    height: 3.5rem;
+    padding: 0 0.5rem 0 7%;
+  }
+  .title {
+    display: flex;
+    padding-left: 25%;
+  }
+}
+
+@media (min-width: 1100px) {
+  .footerContainer {
+    height: 4rem;
+    padding: 0 1rem 0 14%;
+  }
+  .text1,
+  .text2 {
+    display: flex;
+  }
+  .text3,
+  .text4 {
+    display: none;
+  }
+  .title {
+    padding-left: 4%;
+  }
+}
+
+@media (min-width: 1300px) {
+  .title {
+    padding-left: 8%;
+  }
+}

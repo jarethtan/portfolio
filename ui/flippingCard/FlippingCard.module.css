@@ -1,0 +1,14 @@
+.card {
+  position: relative;
+  margin: 1rem;
+  min-width: 15rem;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  transition-delay: 0.2s;
+  cursor: default;
+}
+
+.card:hover {
+  transform: rotateY(-180deg);
+}

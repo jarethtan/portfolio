@@ -1,0 +1,6 @@
+.cardFront {
+  backface-visibility: hidden;
+  background-color: inherit;
+  padding: 0;
+  margin: 0;
+}

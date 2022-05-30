@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.homeImage1 {
+  z-index: 0;
+  position: relative;
+  width: 100vw;
+  height: 94vh;
+}
+
+.homeImage2 {
+  position: relative;
+  width: 100vw;
+  height: 94vh;
+  display: none;
+}
+
+.homeImage3 {
+  width: 100vw;
+  height: 94vh;
+  display: none;
+}
+
+.homeImage4 {
+  width: 100vw;
+  height: 88vh;
+  display: none;
+}
+
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 96vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(2px);
+  z-index: 0;
+}
+
+@media (min-width: 100px) {
+  .homeImage1 {
+    display: none;
+  }
+  .homeImage4 {
+    display: flex;
+  }
+}
+
+@media (min-width: 600px) {
+  .cover {
+    height: 98vh;
+  }
+  .homeImage4 {
+    display: none;
+  }
+  .homeImage3 {
+    display: flex;
+  }
+}
+
+@media (min-width: 900px) {
+  .homeImage2 {
+    display: flex;
+  }
+  .homeImage3 {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .homeImage1 {
+    display: flex;
+  }
+  .homeImage2 {
+    display: none;
+  }
+}

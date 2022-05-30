@@ -1,0 +1,150 @@
+.projectVideo {
+  margin: 0 0 0.5rem auto;
+  border: 2px solid white;
+  width: 52%;
+  outline: none;
+  color: rgba(255, 255, 255, 0);
+  background: rgba(151, 151, 151, 0);
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 0.3rem;
+}
+
+.video {
+  border-radius: 0.3rem;
+  border: 1.5px solid rgba(128, 128, 128, 0.75);
+}
+
+.projectVideo:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    rgb(91, 159, 215),
+    rgb(255, 115, 0),
+    rgb(54, 165, 255),
+    rgb(150, 67, 0),
+    rgb(49, 148, 230),
+    rgb(255, 115, 0),
+    rgb(54, 165, 255),
+    rgb(150, 67, 0)
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 0.3rem;
+}
+
+.projectVideo:hover:before {
+  opacity: 1;
+}
+
+.projectVideo:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  left: 0;
+  top: 0;
+  border-radius: 0.3rem;
+}
+
+.playButton {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  background-color: rgb(56, 145, 154);
+  border: 2px solid white;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.playButton:hover {
+  background-color: rgb(232, 151, 0);
+  transform: scale(1.1);
+}
+
+.playIcon {
+  font-size: 2rem;
+  margin-bottom: -0.3rem;
+  margin-left: 0.4rem;
+  color: white;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.projectImage {
+  margin: 0 0 0.5rem auto;
+  width: 52%;
+  height: 20rem;
+  position: relative;
+  border: 2px solid gray;
+  border-radius: 0.3rem;
+}
+
+.images {
+  position: relative;
+}
+
+@media (min-width: 100px) {
+  .projectImage {
+    margin: auto;
+    width: 100%;
+    height: 14rem;
+  }
+  .projectVideo {
+    margin: auto;
+    width: 100%;
+  }
+}
+
+@media (min-width: 450px) {
+}
+
+@media (min-width: 600px) {
+  .projectImage {
+    margin: auto auto 1rem auto;
+    height: 22rem;
+  }
+  .projectVideo {
+    margin: auto auto 1rem auto;
+  }
+}
+
+@media (min-width: 900px) {
+  .projectImage {
+    height: 28rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .projectImage {
+    height: 20rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .projectImage {
+    height: 22rem;
+  }
+}

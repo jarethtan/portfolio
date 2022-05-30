@@ -1,0 +1,171 @@
+.sidebarMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 14%;
+  min-height: 100vh;
+  background-color: rgb(56, 145, 154);
+  font-family: "Montserrat", sans-serif;
+  border-right: 1px solid gray;
+  z-index: 1;
+}
+
+.linkIconsUncollapse {
+  margin: 1rem auto;
+  padding-bottom: 0.2rem;
+  transition: all 0.1s ease-in-out;
+  width: 7.5rem;
+}
+
+.linkIconsUncollapse:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  font-size: 1.7rem;
+  margin-bottom: -0.35rem;
+  color: white;
+}
+
+.icon:focus {
+  color: rgb(255, 175, 38);
+  outline: none;
+}
+
+.text {
+  font-size: 1.1rem;
+  margin-left: 1rem;
+  font-weight: 600;
+  color: white;
+  display: inline-block;
+  padding-bottom: 3px;
+  background-image: linear-gradient(white, white);
+  background-position: bottom right;
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  transition: background-size 0.2s, background-position 0s 0.2s, color 0.2s;
+  transition-delay: 0.1s;
+}
+
+.text:hover {
+  background-position: bottom left;
+  background-size: 100% 2px;
+  color: rgb(255, 175, 38);
+}
+
+.text:focus {
+  color: rgb(255, 175, 38);
+}
+
+.iconCollapse {
+  font-size: 1.7rem;
+  margin-bottom: -0.35rem;
+  color: white;
+  display: none;
+}
+
+.iconCollapse:hover {
+  color: rgb(255, 175, 38);
+  outline: none;
+}
+
+.iconCollapse:focus {
+  color: rgb(255, 175, 38);
+  outline: none;
+}
+
+@media (min-width: 100px) {
+  .sidebarMenu {
+    position: sticky;
+    flex-direction: row;
+    width: 100%;
+    height: 6vh;
+    min-height: 5vh;
+    padding: 0 0.5rem;
+  }
+  .text,
+  .icon {
+    display: none;
+  }
+  .linkIconsCollapse {
+    margin: auto;
+    font-size: 1.5rem;
+  }
+  .iconCollapse {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    cursor: pointer;
+  }
+  .linkIconsUncollapse {
+    margin: auto 0;
+    width: 0;
+  }
+}
+
+@media (min-width: 600px) {
+  .sidebarMenu {
+    position: fixed;
+    flex-direction: column;
+    width: 9%;
+    height: 100vh;
+    min-height: 100vh;
+    padding: 0rem;
+  }
+  .iconCollapse {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    font-size: 1.7rem;
+    flex-grow: 0;
+  }
+  .linkIconsUncollapse {
+    margin: 0;
+    width: 0;
+  }
+  .linkIconsCollapse {
+    margin: 0rem auto;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .sidebarMenu {
+    width: 7%;
+  }
+}
+
+@media (min-width: 1100px) {
+  .sidebarMenu {
+    width: 14%;
+  }
+  .text {
+    display: inline-block;
+    font-size: 1rem;
+  }
+  .icon {
+    display: inline-block;
+    font-size: 1.4rem;
+  }
+  .iconCollapse {
+    display: none;
+  }
+  .linkIconsUncollapse {
+    margin: 1rem auto;
+    width: 7.5rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .text {
+    font-size: 1.2rem;
+  }
+  .icon {
+    font-size: 1.7rem;
+  }
+  .linkIconsUncollapse {
+    width: 8rem;
+  }
+}

@@ -1,0 +1,37 @@
+.cardFrontContent {
+  flex-direction: column;
+  display: flex;
+  border: 3px solid rgb(255, 252, 230);
+  border-left: 4px solid rgb(56, 145, 154);
+  box-shadow: 4px 4px 5px gray;
+  padding: 1rem;
+}
+
+.legend {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: rgba(56, 145, 154, 1);
+}
+
+.imageContent {
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto;
+}
+
+.skillTitle {
+  margin: 0.5rem auto;
+  font-size: 1rem;
+  font-weight: 600;
+  color: black;
+}
+
+.skillContent {
+  text-align: justify;
+  font-size: 0.85rem;
+  line-height: 1.3rem;
+  height: 4.5rem;
+}
