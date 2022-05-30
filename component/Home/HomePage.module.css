@@ -7,29 +7,17 @@
 
 .homeImage1 {
   z-index: 0;
-  position: relative;
-  width: 100vw;
-  height: 94vh;
 }
 
 .homeImage2 {
-  position: relative;
-  width: 100vw;
-  height: 94vh;
   display: none;
 }
 
 .homeImage3 {
-  position: relative;
-  width: 100vw;
-  height: 94vh;
   display: none;
 }
 
 .homeImage4 {
-  position: relative;
-  width: 100vw;
-  height: 88vh;
   display: none;
 }
 
