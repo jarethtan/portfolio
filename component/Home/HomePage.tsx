@@ -9,7 +9,7 @@ const HomePage = () => {
   return (
     <div className={classes.container}>
       <div className={classes.homeImage1}>
-        <Image src="/images/homepage/homepic1.jpg" priority={true} objectFit="fill" layout="fill" />
+        <Image src="/images/homepage/homepic1.jpg" objectFit="fill" layout="fill" />
       </div>
       <div className={classes.homeImage2}>
         <Image src="/images/homepage/homepic2.jpg" objectFit="fill" layout="fill" />
