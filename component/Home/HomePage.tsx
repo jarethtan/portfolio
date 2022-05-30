@@ -9,16 +9,16 @@ const HomePage = () => {
   return (
     <div className={classes.container}>
       <div className={classes.homeImage1}>
-        <Image src="/images/homepage/homepic1.jpg" width="1500" height="944" />
+        <Image src="/static/img/homepic1.jpg" objectFit="fill" layout="fill" />
       </div>
       <div className={classes.homeImage2}>
-        <Image src="/images/homepage/homepic2.jpg" width="100vw" height="100vh" />
+        <Image src="/static/img/homepic2.jpg" objectFit="fill" layout="fill" />
       </div>
       <div className={classes.homeImage3}>
-        <Image src="/images/homepage/homepic3.jpg" width="100vw" height="100vh" />
+        <Image src="/static/img/homepic3.jpg" objectFit="fill" layout="fill" />
       </div>
       <div className={classes.homeImage4}>
-        <Image src="/images/homepage/homepic4.jpg" width="100vw" height="100vh" />
+        <Image src="/static/img/homepic4.jpg" objectFit="fill" layout="fill" />
       </div>
       <div className={classes.cover}></div>
       <Name />
