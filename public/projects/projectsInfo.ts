@@ -19,7 +19,7 @@ export const projectsDescription = [
 export const projectLinks = [
   ["https://eatsy-app-next-js-jarethtan.vercel.app/", "https://github.com/jarethtan/EatsyAppNextJs"],
   ["http://stark-inlet-18272.herokuapp.com/home", "https://github.com/jarethtan/hengtai"],
-  ["/XXXX", "/XXXX"],
+  ["https://www.jarethtan.com/", "https://github.com/jarethtan/portfolio"],
   ["https://angry-lumiere-e582d5.netlify.app", "https://github.com/jarethtan/countryCovidApi_netlify"],
   ["https://adoring-benz-f83466.netlify.app/", "https://github.com/jarethtan/react_netify"],
 ];

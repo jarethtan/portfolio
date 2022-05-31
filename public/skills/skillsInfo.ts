@@ -41,7 +41,6 @@ export const skillsContent = [
   "I use Typescript to improve readability and checking of my code more effectively.",
   "Due to its ease-of-use and performance, I use redux for all my state management.",
   "For my media storage and custom needs, cloudinary is my go-to image solution",
-  // "Amazing resource and community. S/O answered so many of my queries.",
 ];
 
 export const legend = ["Frontend", "Frontend", "Frontend", "Frontend", "Backend", "Backend", "Backend", "Deployment", "Deployment", "Tools", "Tools", "Tools"];
@@ -50,18 +49,18 @@ export const skillsLinksIcons = [
   [
     ["Eatsy Demo", "https://eatsy-app-next-js-jarethtan.vercel.app/", "https://github.com/jarethtan/EatsyAppNextJs"],
     ["Heng Thai Demo", "http://stark-inlet-18272.herokuapp.com/home", "https://github.com/jarethtan/hengtai"],
-    ["Portfolio Demo", "XXXX", "XXXX"],
+    ["Portfolio Demo", "https://www.jarethtan.com/", "https://github.com/jarethtan/portfolio"],
     ["Country Info Demo", "https://angry-lumiere-e582d5.netlify.app", "https://github.com/jarethtan/countryCovidApi_netlify"],
     ["To do list Demo", "https://adoring-benz-f83466.netlify.app/", "https://github.com/jarethtan/react_netify"],
   ],
   [
     ["To do list", "https://adoring-benz-f83466.netlify.app/", "https://github.com/jarethtan/react_netify"],
     ["Eatsy Demo", "https://eatsy-app-next-js-jarethtan.vercel.app/", "https://github.com/jarethtan/EatsyAppNextJs"],
-    ["Portfolio Demo", "XXXX", "XXXX"],
+    ["Portfolio Demo", "https://www.jarethtan.com/", "https://github.com/jarethtan/portfolio"],
   ],
   [
     ["Eatsy Demo", "https://eatsy-app-next-js-jarethtan.vercel.app/", "https://github.com/jarethtan/EatsyAppNextJs"],
-    ["Portfolio Demo", "XXXX", "XXXX"],
+    ["Portfolio Demo", "https://www.jarethtan.com/", "https://github.com/jarethtan/portfolio"],
   ],
   [["Heng Thai Demo", "http://stark-inlet-18272.herokuapp.com/home", "https://github.com/jarethtan/hengtai"]],
   [["Heng Thai Demo", "http://stark-inlet-18272.herokuapp.com/home", "https://github.com/jarethtan/hengtai"]],
@@ -73,11 +72,11 @@ export const skillsLinksIcons = [
   [["Heng Thai Demo", "http://stark-inlet-18272.herokuapp.com/home", "https://github.com/jarethtan/hengtai"]],
   [
     ["Eatsy Demo", "https://eatsy-app-next-js-jarethtan.vercel.app/", "https://github.com/jarethtan/EatsyAppNextJs"],
-    ["Portfolio Demo", "XXXX", "XXXX"],
+    ["Portfolio Demo", "https://www.jarethtan.com/", "https://github.com/jarethtan/portfolio"],
   ],
   [
     ["Eatsy Demo", "https://eatsy-app-next-js-jarethtan.vercel.app/", "https://github.com/jarethtan/EatsyAppNextJs"],
-    ["Portfolio Demo", "XXXX", "XXXX"],
+    ["Portfolio Demo", "https://www.jarethtan.com/", "https://github.com/jarethtan/portfolio"],
   ],
   [["Eatsy Demo", "https://eatsy-app-next-js-jarethtan.vercel.app/", "https://github.com/jarethtan/EatsyAppNextJs"]],
   [

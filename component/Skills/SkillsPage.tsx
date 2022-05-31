@@ -8,6 +8,9 @@ const SkillsPage = () => {
   return (
     <div className={classes.container}>
       <Title>Skills</Title>
+      <span className={classes.note}>
+        <span>Hover</span> on skills card to see related projects!
+      </span>
       <div className={classes.cardContainer}>
         {imagesDescription.map((image, i) => (
           <EachSkill image={image} title={skillsTitle[i]} legend={legend[i]} content={skillsContent[i]} backContent={skillsLinksIcons[i]} key={i} />

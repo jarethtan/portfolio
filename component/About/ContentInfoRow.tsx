@@ -12,9 +12,10 @@ const ContentInfoRow = () => {
       <div className={classes.developerContent}>
         <span className={classes.intro}>Hi! I'm Jareth Tan, a Full Stack Developer</span>
         <div className={classes.content}>
-          I am a self-starter and data driven individual taking a mid-career leap into the world of web development. During the pandemic, I decided to take a
-          leap of faith and undergo one year of intensive self-directed learning to be a self-taught web developer. My vision is to create value for my clients
-          by bringing ideas to life through my expertise and creativity. Have a look at my portfolio and let's connect for any future opportunities!
+          I am a self-starter individual taking a mid-career leap into the world of web development. Being data-driven and choosing to pursue my passion, I took
+          a leap of faith to start afresh and focus on one year of intensive self-directed learning in the midst of the pandemic. With a goal of being a
+          self-taught web developer, my vision is to create value for my clients by bringing ideas to life. Have a look at my projects and let's connect for any
+          future opportunities!
         </div>
         <div className={classes.infoSection}>
           <div className={classes.locationEmail}>

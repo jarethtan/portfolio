@@ -7,6 +7,18 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.note {
+  margin: 0rem auto 1rem auto;
+  padding: 0.5rem;
+  box-shadow: 1px 1px 3px gray;
+}
+
+.note span {
+  color: rgb(56, 145, 154);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
 .cardContainer {
   display: inline-flex;
   flex-direction: row;
