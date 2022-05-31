@@ -6,7 +6,7 @@ export const imagesDescription = [
   "nodejs",
   "expressJS",
   "mongodb",
-  "Heroku",
+  "heroku",
   "vercel",
   "typescript",
   "redux",
