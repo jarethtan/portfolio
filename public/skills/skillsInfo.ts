@@ -51,7 +51,6 @@ export const skillsLinksIcons = [
     ["Heng Thai Demo", "http://stark-inlet-18272.herokuapp.com/home", "https://github.com/jarethtan/hengtai"],
     ["Portfolio Demo", "https://www.jarethtan.com/", "https://github.com/jarethtan/portfolio"],
     ["Country Info Demo", "https://angry-lumiere-e582d5.netlify.app", "https://github.com/jarethtan/countryCovidApi_netlify"],
-    ["To do list Demo", "https://adoring-benz-f83466.netlify.app/", "https://github.com/jarethtan/react_netify"],
   ],
   [
     ["To do list", "https://adoring-benz-f83466.netlify.app/", "https://github.com/jarethtan/react_netify"],
