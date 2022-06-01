@@ -9,7 +9,7 @@ const SkillsPage = () => {
     <div className={classes.container}>
       <Title>Skills</Title>
       <span className={classes.note}>
-        <span>Hover</span> on skills card to see related projects!
+        <span>Hover</span> on skills card to see related projects.
       </span>
       <div className={classes.cardContainer}>
         {imagesDescription.map((image, i) => (

@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 const IconButton = () => {
   const icons = [<FaLinkedin className={classes.iconImage} />, <FaGithub className={classes.iconImage} />, <FaInstagram className={classes.iconImage} />];
-  const links = ["https://www.linkedin.com/in/jarethjoshuatanca/", "https://github.com/jarethtan", "https://www.instagram.com/jarethdev/"];
+  const links = ["https://www.linkedin.com/in/jarethtanca/", "https://github.com/jarethtan", "https://www.instagram.com/jarethdev/"];
   return (
     <div className={classes.iconContainer}>
       {icons.map((icon, i) => (
