@@ -6,7 +6,7 @@ const HomeTitle = () => {
     <div className={classes.titleContainer}>
       <div className={classes.title}>
         <h2>
-          I am a&nbsp;<span>Full Stack Developer</span>
+          I am a&nbsp;<span>Frontend Developer</span>
         </h2>
         <h3>Full Stack Developer</h3>
       </div>

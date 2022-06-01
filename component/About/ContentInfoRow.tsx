@@ -10,7 +10,7 @@ const ContentInfoRow = () => {
         <Image src="/images/aboutPage/chilling2.jpg" layout="fill" objectFit="fill" className={classes.images} />
       </div>
       <div className={classes.developerContent}>
-        <span className={classes.intro}>Hi! I'm Jareth Tan, a Full Stack Developer</span>
+        <span className={classes.intro}>Hi! I'm Jareth Tan, a Frontend Developer</span>
         <div className={classes.content}>
           I am a self-starter individual taking a mid-career leap into the world of web development. Being data-driven and choosing to pursue my passion, I took
           a leap of faith to start afresh and focus on one year of intensive self-directed learning in the midst of the pandemic. With a goal of being a
