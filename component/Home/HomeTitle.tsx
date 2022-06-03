@@ -6,9 +6,9 @@ const HomeTitle = () => {
     <div className={classes.titleContainer}>
       <div className={classes.title}>
         <h2>
-          I am a&nbsp;<span>Frontend Developer</span>
+          I am a&nbsp;<span>Web Developer</span>
         </h2>
-        <h3>Full Stack Developer</h3>
+        <h3>Web Developer</h3>
       </div>
     </div>
   );
