@@ -32,7 +32,7 @@ const ContentInfoRow = () => {
             </span>
           </div>
         </div>
-        <a href="./info/resume.pdf" className={classes.resumeButton} download>
+        <a href="./about/Resume.pdf" className={classes.resumeButton} download>
           Download Resume
         </a>
       </div>
